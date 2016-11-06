@@ -1,5 +1,5 @@
 # HTTPSniff
-#Debug:
-#javac HTTPSniff.java
+Debug:
+javac HTTPSniff.java
 
-#java HTTPSniff
+java HTTPSniff
