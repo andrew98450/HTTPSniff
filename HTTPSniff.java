@@ -5,7 +5,7 @@ public class HTTPSniff {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			ServerSocket server = new ServerSocket(8888);
+			ServerSocket server = new ServerSocket(8080);
 			System.out.println("##################################");
 			System.out.println("#                                #");
 			System.out.println("#           HTTP Sniff           #");
@@ -13,7 +13,7 @@ public class HTTPSniff {
 			System.out.println("#    Developer By Huang Andrew   #");
 			System.out.println("#                                #");
 			System.out.println("##################################");
-            System.out.println("Proxy Port is 8888......");
+            System.out.println("Proxy Port is 8080......");
 			System.out.println("Listeneter....");
 			do{
 			Socket socket = server.accept();
